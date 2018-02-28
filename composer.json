@@ -1,0 +1,19 @@
+{
+	"name": "soralis_nem/nemsign4php",
+	"description": "Nem Sign for PHP",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "soralis",
+			"email": "soralis.nem@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"soralis_nem\\nemsign4php\\": "src/"
+		}
+
+		
+	}
+}
