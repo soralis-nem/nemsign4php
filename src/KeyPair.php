@@ -27,8 +27,8 @@ https://github.com/tomotomo9696/NEMTools_PHP
 
 */
 namespace soralis_nem\nemsign4php;
-require_once ("./Sha3.php");
-require_once ("./salt/autoload.php");
+require_once (__DIR__."/Sha3.php");
+require_once (__DIR__."/salt/autoload.php");
 class Base32 {
    private static $map = array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',  'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '2', '3', '4', '5', '6', '7', '=');
 
